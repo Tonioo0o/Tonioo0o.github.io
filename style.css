@@ -1,18 +1,19 @@
 body  {
 	font-family: arial;
-	background: rgb(104, 166, 145);
+	background: rgb(243, 244, 150);
 	text-align: center;
 }
 
 
 h1 {
-	color: red;
+	color: white;
     font-size: 40px;
     font-family: Spacy Rice, cursive;
+    padding-bottom: 50px;
 }
 
 h2	{
-	color: blue;
+	color: #6F1D1B;
 }
 
 img  {
@@ -69,4 +70,9 @@ ul	{
 }
 .box-pink {
 	background: pink;
+}
+#banner {
+	background-image: url(https://fr.cdn.v5.futura-sciences.com/buildsv6/images/wide1920/f/3/5/f35990c44a_105901_moutarde-dijon.jpg);
+	padding-top: 100px;
+
 }
