@@ -4,24 +4,36 @@ body  {
 	text-align: center;
 }
 
+nav {
+	color: rgb(243, 244, 150);
+}
 
+ul {
+	border: 1px solid #e7e7e7;
+	background-color: #f3f3f3;
+}
+
+li a {
+	color: #666;
+}
+
+a {
+	font-family: Luckiest Guy;
+}
 h1 {
 	color: white;
     font-size: 40px;
-    font-family: Spacy Rice, cursive;
-    padding-bottom: 50px;
+    font-family: Luckiest Guy;
+    text-align: center;
+    padding-bottom: 150px;
+    padding-right: 350px;
 }
 
 h2	{
 	color: #6F1D1B;
-}
-
-img  {
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-	box-shadow: 10px 10px 10px grey;
-	text-align: center;
+	font-family: Economica;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 
@@ -30,49 +42,27 @@ a {
 }
 
 
-p {
-	border: 2px solid red;
-	border-radius: 5px;
-}
-
-
-ul	{
-	text-align: center;
-}
-
-#box-black  {
-	background: black;
-	padding: 20px;
-}
-
-#box-red {
-	background: red;
-}
-
-#box-yellow {
-	background: yellow;
-}
-
-#box-green  {
-	background: green;
-}
-
 .width-200px  {
 	width: 200px;
 }
 
-.border-white  {
-	border: 2px solid green;
-}
-
 .my-icon {
 	font-size: 40px;
+	width: 50px;
+
 }
-.box-pink {
-	background: pink;
-}
+
 #banner {
 	background-image: url(https://fr.cdn.v5.futura-sciences.com/buildsv6/images/wide1920/f/3/5/f35990c44a_105901_moutarde-dijon.jpg);
-	padding-top: 100px;
+	padding-top: 200px;
+	background-size: cover;
+	background-position: bottom;
 
+}
+.btn-group {
+
+}
+footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
